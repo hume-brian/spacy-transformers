@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-PYVER := 3.6
+PYVER := 3.11
 VENV := ./env$(PYVER)
 
 version := $(shell "bin/get-version.sh")
